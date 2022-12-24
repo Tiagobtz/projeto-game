@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: white;
+    background-image: url('imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section{
+    background-color:rgba(7, 177, 177, 0.541);
+    color: rgb(0, 0, 0);
+    max-width: 550px;
+    min-width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1{
+    background-image: linear-gradient(to right, rgb(17, 63, 17), rgb(21, 94, 21),rgb(2, 59, 2));
+    color: white;
+    border: solid 2px black;
+    max-width: 300px;
+    max-height: 30px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    text-align: center;
+}
+
+div#dados{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+div#perguntas{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+input{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+p.input{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+
+input.sexo{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+h2{
+    background-image: linear-gradient(to right, rgb(3, 44, 3), rgb(23, 102, 23), rgb(7, 92, 7));
+    color: white;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+}
+
+p.perguntas{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+input.perguntas{
+    margin-top: 20px;
+}
+
+label.perguntas{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div#button{
+    text-align: right;
+}
+
+
+
+input#botao{
+    background-color: rgb(26, 77, 26);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+input#botao:hover{
+    background-color: green;
+    color: white;
+}
+
+div#img{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+img{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 300px;
+    display: block;
+}
+
+
+
+

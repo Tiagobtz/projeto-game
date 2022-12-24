@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <h1>Character game</h1>
+
+        <div id="dados">
+            <p class="input">Como você se chama?</p> <input type="text" id="text">
+            
+            <p class="input">Quantos anos você tem?</p><input type="number" name="meses" id="meses">
+            
+            <p class="input">
+                Seu sexo:<br>
+                <input type="radio" name="radsex" id="masc" class="sexo" required>
+                <label for="masc" class="perguntas">Masculino</label>
+                <input type="radio" name="radsex" id="fem" class="sexo">
+                <label for="fem" class="perguntas">Feminino</label>
+            </p>
+        </div>
+
+        <div id="perguntas">
+
+            <h2>Vamos às perguntas!</h2>
+
+            <p class="perguntas">Você se considera uma pessoa determinada?</p>
+            <input type="radio" name="determinada" id="detS" class="perguntas" required>
+            <label for="detS" class="perguntas">&#x1F44D;</label>
+            <input type="radio" name="determinada" id="detN" class="perguntas">
+            <label for="detN" class="perguntas">&#x1F44E;</label>
+
+            <p class="perguntas">Você se sacrificaria para salvar a vida de alguém?</p>
+            <input type="radio" name="vida" id="vidaS" class="perguntas" required>
+            <label for="vidaS" class="perguntas">&#x1F44D;</label>
+            <input type="radio" name="vida" id="vidaN" class="perguntas">
+            <label for="vidaN" class="perguntas">&#x1F44E;</label>
+
+            <p class="perguntas">Você gosta de uma boa aventura?</p>
+            <input type="radio" name="aventura" id="aventuraS" class="perguntas" required>
+            <label for="aventuraS" class="perguntas">&#x1F44D;</label>
+            <input type="radio" name="aventura" id="aventuraN" class="perguntas">
+            <label for="aventuraN" class="perguntas">&#x1F44E;</label>
+
+            <p class="perguntas">Você seria capaz de tudo para concluir seus objetivos, mesmo que tal coisa prejudicasse alguém?</p>
+            <input type="radio" name="objetivo" id="objS" class="perguntas" required>
+            <label for="objS" class="perguntas">&#x1F44D;</label>
+            <input type="radio" name="objetivo" id="objN" class="perguntas">
+            <label for="objN" class="perguntas">&#x1F44E;</label>
+
+            <p class="perguntas">Você costuma ler?</p>
+            <input type="radio" name="ler" id="lerS" class="perguntas" required>
+            <label for="lerS" class="perguntas">&#x1F44D;</label>
+            <input type="radio" name="ler" id="lerN" class="perguntas">
+            <label for="lerN" class="perguntas">&#x1F44E;</label>
+
+            <p class="perguntas">Você costuma praticar exercícios?</p>
+            <input type="radio" name="exer" id="exS" class="perguntas" required>
+            <label for="exS" class="perguntas">&#x1F44D;</label>
+            <input type="radio" name="exer" id="exN" class="perguntas">
+            <label for="exN" class="perguntas">&#x1F44E;</label>
+
+            <p class="perguntas">Você seria capaz de matar alguém?</p>
+            <input type="radio" name="matar" id="matS" class="perguntas" required>
+            <label for="matS" class="perguntas">&#x1F44D;</label>
+            <input type="radio" name="matar" id="matN" class="perguntas">
+            <label for="matN" class="perguntas">&#x1F44E;</label>
+
+            <p class="perguntas">Você tem facilidade em perdoar os outros?</p>
+            <input type="radio" name="perdoar" id="pS" class="perguntas" required>
+            <label for="pS" class="perguntas">&#x1F44D;</label>
+            <input type="radio" name="perdoar" id="pN" class="perguntas">
+            <label for="pN" class="perguntas">&#x1F44E;</label>
+
+        </div>
+
+        <div id="button"><br>
+            <input type="button" value="Let's GO!" onclick="carregar()" id="botao">
+        </div>
+
+        <div id="img">
+            <img src="imagens/mario.png" alt="Character game" id="imagem">
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
